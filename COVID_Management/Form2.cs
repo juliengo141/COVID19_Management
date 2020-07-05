@@ -30,10 +30,5 @@ namespace COVID_Management
                 MessageBox.Show("Congratulations! You are fit for work. See you at 8!");
             }
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

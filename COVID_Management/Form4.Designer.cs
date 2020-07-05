@@ -34,31 +34,29 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(18, 18);
+            this.monthCalendar1.Location = new System.Drawing.Point(297, 124);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(10, 11, 10, 11);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
-            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // instructionLabel
             // 
             this.instructionLabel.AutoSize = true;
-            this.instructionLabel.Font = new System.Drawing.Font("Constantia", 11F);
-            this.instructionLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.instructionLabel.Location = new System.Drawing.Point(12, 234);
+            this.instructionLabel.Location = new System.Drawing.Point(226, 397);
             this.instructionLabel.Name = "instructionLabel";
-            this.instructionLabel.Size = new System.Drawing.Size(290, 115);
+            this.instructionLabel.Size = new System.Drawing.Size(456, 60);
             this.instructionLabel.TabIndex = 27;
-            this.instructionLabel.Text = "Please quarantine yourself for \r\n14 days starting from today, \r\nwhen you first sh" +
-    "owed symptons, \r\nor the day you tested for covid\r\n.";
+            this.instructionLabel.Text = "Please quarantine yourself for 14 days starting from today, \r\nwhen you first show" +
+    "ed symptons, or the day you tested for covid\r\n.";
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(312, 334);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.instructionLabel);
             this.Controls.Add(this.monthCalendar1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form4";
             this.Text = "Form4";
             this.ResumeLayout(false);

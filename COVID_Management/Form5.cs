@@ -23,10 +23,5 @@ namespace COVID_Management
             f7.Show();
             //this.Close();
         }
-
-        private void Form5_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

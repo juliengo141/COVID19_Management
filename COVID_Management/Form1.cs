@@ -47,7 +47,13 @@ namespace COVID_Management
             {
                 MessageBox.Show("Connection is established");
             }
-           
+        }
+
+
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void yesCovidPosButton_Click(object sender, EventArgs e)
@@ -62,11 +68,6 @@ namespace COVID_Management
             Form4 f4 = new Form4();
             f4.Show();
             //this.Close();
-
-        }
-
-        private void companyLogoPicture_Click(object sender, EventArgs e)
-        {
 
         }
     }

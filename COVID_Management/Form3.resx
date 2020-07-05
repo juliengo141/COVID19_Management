@@ -118,45 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="IThinkIHaveCovidLabel.Text" xml:space="preserve">
-    <value>I think or know I had COVID-19, 
-and I had symptoms:
- - You can be with others after 3 
-   days with no fever and
- - Respiratory symptoms have 
-    improved (e.g. cough, 
-    shortness of breath) and
- - 10 days since symptoms first
-   appeared temperature high light icon
+    <value>I think or know I had COVID-19, and I had symptoms:
+ - You can be with others after 3 days with no fever and
+ - Respiratory symptoms have improved (e.g. cough, 
+   shortness of breath) and
+ - 10 days since symptoms first appeared
+  temperature high light icon
 
-Depending on your healthcare provider’s
-advice and availability of testing, you 
-might get tested to see if you still have
-COVID-19. If you will be tested, you can 
-be around others when you have no fever, 
-respiratory symptoms have improved, and 
-you receive two negative test results in a 
-row, at least 24 hours apart. (cdc.gov)
+Depending on your healthcare provider’s advice and 
+availability of testing, you might get tested to see if 
+you still have COVID-19. If you will be tested, you can 
+be around others when you have no fever, respiratory 
+symptoms have improved, and you receive two negative 
+test results in a row, at least 24 hours apart.
 
 </value>
   </data>
   <data name="ITestedPosForCovid.Text" xml:space="preserve">
-    <value>I tested positive for COVID-19 but had no 
-symptoms. If you continue to have no 
-symptoms, you can be with 
+    <value>I tested positive for COVID-19 but had no symptoms
+If you continue to have no symptoms, you can be with 
 others after:
  - 10 days have passed since test
 
-Depending on your healthcare provider’s 
-advice and availability of testing, you 
-might get tested to see if you still have 
-COVID-19. If you will be tested, you can 
-be around others after you receive two 
-negative test results in a row, at least 24 
-hours apart.
+Depending on your healthcare provider’s advice and 
+availability of testing, you might get tested to see if 
+you still have COVID-19. If you will be tested, you can 
+be around others after you receive two negative test 
+results in a row, at least 24 hours apart.
 
-If you develop symptoms after testing 
-positive, follow the guidance above for 
-“I think or know I had COVID, and I had 
-symptoms.” (cdc.gov)</value>
+If you develop symptoms after testing positive, follow 
+the guidance above for “I think or know I had COVID, 
+and I had symptoms.”</value>
   </data>
 </root>
