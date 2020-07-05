@@ -34,7 +34,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(264, 99);
+            this.monthCalendar1.Location = new System.Drawing.Point(18, 18);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
@@ -42,22 +42,24 @@
             // instructionLabel
             // 
             this.instructionLabel.AutoSize = true;
-            this.instructionLabel.Location = new System.Drawing.Point(201, 318);
+            this.instructionLabel.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.instructionLabel.Location = new System.Drawing.Point(12, 234);
             this.instructionLabel.Name = "instructionLabel";
-            this.instructionLabel.Size = new System.Drawing.Size(411, 51);
+            this.instructionLabel.Size = new System.Drawing.Size(298, 95);
             this.instructionLabel.TabIndex = 27;
-            this.instructionLabel.Text = "Please quarantine yourself for 14 days starting from today, \r\nwhen you first show" +
-    "ed symptons, or the day you tested for covid\r\n.";
+            this.instructionLabel.Text = "Please quarantine yourself for \r\n14 days starting from today, \r\nwhen you first sh" +
+    "owed symptons, \r\nor the day you tested for covid\r\n.";
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
+            this.ClientSize = new System.Drawing.Size(312, 334);
             this.Controls.Add(this.instructionLabel);
             this.Controls.Add(this.monthCalendar1);
             this.Name = "Form4";
-            this.Text = "Form4";            
+            this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();
 

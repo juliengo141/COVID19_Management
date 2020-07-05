@@ -41,7 +41,7 @@
             this.covidManagerLabel.AutoSize = true;
             this.covidManagerLabel.BackColor = System.Drawing.Color.WhiteSmoke;
             this.covidManagerLabel.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold);
-            this.covidManagerLabel.Location = new System.Drawing.Point(10, 23);
+            this.covidManagerLabel.Location = new System.Drawing.Point(4, 9);
             this.covidManagerLabel.Name = "covidManagerLabel";
             this.covidManagerLabel.Size = new System.Drawing.Size(781, 68);
             this.covidManagerLabel.TabIndex = 14;
@@ -49,6 +49,7 @@
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
             this.checkedListBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
@@ -73,27 +74,30 @@
             "Falling down often",
             "For young children and infants: sluggishness or lack of appetite",
             "None of the above "});
-            this.checkedListBox1.Location = new System.Drawing.Point(22, 236);
+            this.checkedListBox1.Location = new System.Drawing.Point(2, 145);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(776, 327);
+            this.checkedListBox1.Size = new System.Drawing.Size(909, 418);
             this.checkedListBox1.TabIndex = 15;
             // 
             // submitButton
             // 
-            this.submitButton.Location = new System.Drawing.Point(836, 485);
+            this.submitButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.submitButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.submitButton.Location = new System.Drawing.Point(823, 569);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(75, 23);
+            this.submitButton.Size = new System.Drawing.Size(88, 29);
             this.submitButton.TabIndex = 16;
             this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 109);
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.label1.Location = new System.Drawing.Point(12, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(376, 17);
+            this.label1.Size = new System.Drawing.Size(514, 19);
             this.label1.TabIndex = 17;
             this.label1.Text = "Check which of the following  symptoms you currently have";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -103,7 +107,7 @@
             this.pictureBox1.BackgroundImage = global::COVID_Management.Properties.Resources.Light_gray_image;
             this.pictureBox1.Location = new System.Drawing.Point(2, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(921, 195);
+            this.pictureBox1.Size = new System.Drawing.Size(921, 95);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
@@ -112,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
-            this.ClientSize = new System.Drawing.Size(923, 520);
+            this.ClientSize = new System.Drawing.Size(923, 598);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.checkedListBox1);
