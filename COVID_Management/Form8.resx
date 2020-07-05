@@ -117,14 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Rest at home today and continue to monitor your health. Remember to do this 
-questionnaire again tomorrow. 
-
-In case of emergency, contact 911 immediately and notify your manager at 
-your earliest convenience
-
-Please be advised that your manager has been notified and a copy of your 
-results have been sent to them.</value>
-  </data>
 </root>

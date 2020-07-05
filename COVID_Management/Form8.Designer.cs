@@ -28,43 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Constantia", 16.2F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(12, 30);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Location = new System.Drawing.Point(14, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(682, 35);
+            this.label1.Size = new System.Drawing.Size(687, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Your results show that you are unfit for work today.";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Constantia", 11F);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(14, 82);
+            this.label2.Location = new System.Drawing.Point(18, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(659, 184);
+            this.label2.Size = new System.Drawing.Size(774, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "Rest at home today and continue to monitor your health. Remember to do this quest" +
+    "ionnaire again tomorrow.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(18, 128);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(714, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "In case of emergency, contact 911 immediately and notify your manager at your ear" +
+    "liest convenience";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 181);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(755, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Please be advised that your manager has been notified and a copy of your results " +
+    "have been sent to them.";
             // 
             // Form8
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(711, 302);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form8";
             this.Text = "Form8";
             this.Load += new System.EventHandler(this.Form8_Load);
@@ -77,5 +95,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

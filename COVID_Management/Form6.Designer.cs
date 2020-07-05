@@ -37,65 +37,52 @@
             // covidManagerLabel
             // 
             this.covidManagerLabel.AutoSize = true;
-            this.covidManagerLabel.Font = new System.Drawing.Font("Constantia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.covidManagerLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.covidManagerLabel.Location = new System.Drawing.Point(28, 29);
+            this.covidManagerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.covidManagerLabel.Location = new System.Drawing.Point(23, 49);
             this.covidManagerLabel.Name = "covidManagerLabel";
-            this.covidManagerLabel.Size = new System.Drawing.Size(601, 35);
+            this.covidManagerLabel.Size = new System.Drawing.Size(619, 36);
             this.covidManagerLabel.TabIndex = 15;
             this.covidManagerLabel.Text = "What were the results of your COVID-19 test?";
             // 
             // COVIDPosButton
             // 
-            this.COVIDPosButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.COVIDPosButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.COVIDPosButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.COVIDPosButton.Location = new System.Drawing.Point(25, 85);
-            this.COVIDPosButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.COVIDPosButton.Location = new System.Drawing.Point(52, 275);
             this.COVIDPosButton.Name = "COVIDPosButton";
-            this.COVIDPosButton.Size = new System.Drawing.Size(202, 61);
+            this.COVIDPosButton.Size = new System.Drawing.Size(161, 76);
             this.COVIDPosButton.TabIndex = 16;
             this.COVIDPosButton.Text = "I tested Positive for COVID 19";
-            this.COVIDPosButton.UseVisualStyleBackColor = false;
+            this.COVIDPosButton.UseVisualStyleBackColor = true;
             this.COVIDPosButton.Click += new System.EventHandler(this.COVIDPosButton_Click);
             // 
             // COVIDNegButton
             // 
-            this.COVIDNegButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.COVIDNegButton.Font = new System.Drawing.Font("Constantia", 11F);
-            this.COVIDNegButton.Location = new System.Drawing.Point(473, 87);
-            this.COVIDNegButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.COVIDNegButton.Location = new System.Drawing.Point(297, 275);
             this.COVIDNegButton.Name = "COVIDNegButton";
-            this.COVIDNegButton.Size = new System.Drawing.Size(199, 61);
+            this.COVIDNegButton.Size = new System.Drawing.Size(161, 76);
             this.COVIDNegButton.TabIndex = 17;
             this.COVIDNegButton.Text = "I tested Negative for COVID 19";
-            this.COVIDNegButton.UseVisualStyleBackColor = false;
+            this.COVIDNegButton.UseVisualStyleBackColor = true;
             this.COVIDNegButton.Click += new System.EventHandler(this.COVIDNegButton_Click);
             // 
             // COVIDResultsNotReceivedButton
             // 
-            this.COVIDResultsNotReceivedButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.COVIDResultsNotReceivedButton.Font = new System.Drawing.Font("Constantia", 11F);
-            this.COVIDResultsNotReceivedButton.Location = new System.Drawing.Point(245, 85);
-            this.COVIDResultsNotReceivedButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.COVIDResultsNotReceivedButton.Location = new System.Drawing.Point(552, 275);
             this.COVIDResultsNotReceivedButton.Name = "COVIDResultsNotReceivedButton";
-            this.COVIDResultsNotReceivedButton.Size = new System.Drawing.Size(199, 63);
+            this.COVIDResultsNotReceivedButton.Size = new System.Drawing.Size(161, 76);
             this.COVIDResultsNotReceivedButton.TabIndex = 18;
             this.COVIDResultsNotReceivedButton.Text = "My results have not come in yet";
-            this.COVIDResultsNotReceivedButton.UseVisualStyleBackColor = false;
+            this.COVIDResultsNotReceivedButton.UseVisualStyleBackColor = true;
             this.COVIDResultsNotReceivedButton.Click += new System.EventHandler(this.COVIDResultsNotReceivedButton_Click);
             // 
             // Form6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(711, 179);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.COVIDResultsNotReceivedButton);
             this.Controls.Add(this.COVIDNegButton);
             this.Controls.Add(this.COVIDPosButton);
             this.Controls.Add(this.covidManagerLabel);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form6";
             this.Text = "Form6";
             this.ResumeLayout(false);

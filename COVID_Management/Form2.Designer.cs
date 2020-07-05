@@ -32,27 +32,21 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.submitButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // covidManagerLabel
             // 
             this.covidManagerLabel.AutoSize = true;
-            this.covidManagerLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(235)))));
-            this.covidManagerLabel.Font = new System.Drawing.Font("Constantia", 36F, System.Drawing.FontStyle.Bold);
-            this.covidManagerLabel.Location = new System.Drawing.Point(4, 9);
+            this.covidManagerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.covidManagerLabel.Location = new System.Drawing.Point(14, 11);
             this.covidManagerLabel.Name = "covidManagerLabel";
-            this.covidManagerLabel.Size = new System.Drawing.Size(730, 73);
+            this.covidManagerLabel.Size = new System.Drawing.Size(462, 46);
             this.covidManagerLabel.TabIndex = 14;
             this.covidManagerLabel.Text = "COVID-19 Questionnaire";
             // 
             // checkedListBox1
             // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox1.Font = new System.Drawing.Font("Constantia", 11F);
-            this.checkedListBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.checkedListBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Fever(feeling hot to the touch, a temperature of 37.8 degrees Celsius or higher)",
@@ -76,58 +70,44 @@
             "Falling down often",
             "For young children and infants: sluggishness or lack of appetite",
             "None of the above "});
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 145);
+            this.checkedListBox1.Location = new System.Drawing.Point(12, 87);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(909, 400);
+            this.checkedListBox1.Size = new System.Drawing.Size(872, 424);
             this.checkedListBox1.TabIndex = 15;
             // 
             // submitButton
             // 
-            this.submitButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.submitButton.Font = new System.Drawing.Font("Constantia", 11F);
-            this.submitButton.Location = new System.Drawing.Point(810, 557);
+            this.submitButton.Location = new System.Drawing.Point(802, 519);
+            this.submitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(88, 29);
+            this.submitButton.Size = new System.Drawing.Size(84, 29);
             this.submitButton.TabIndex = 16;
             this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.UseVisualStyleBackColor = true;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Constantia", 11F);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(12, 109);
+            this.label1.Location = new System.Drawing.Point(21, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(502, 23);
+            this.label1.Size = new System.Drawing.Size(419, 20);
             this.label1.TabIndex = 17;
             this.label1.Text = "Check which of the following  symptoms you currently have";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::COVID_Management.Properties.Resources.Background;
-            this.pictureBox1.Location = new System.Drawing.Point(2, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(921, 95);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(923, 598);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.covidManagerLabel);
-            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,6 +119,5 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

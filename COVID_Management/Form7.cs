@@ -26,11 +26,11 @@ namespace COVID_Management
 
         private void yesOutOfCanButton_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
-            //this.Close();
-
-            Variables.iDate = dateTimePicker1.Value;
+           Form4 f4 = new Form4();
+                f4.Show();
+                //this.Close();
+                DateTime iDate;
+                iDate = dateTimePicker1.Value;
         }
 
         private void noOutOfCanButton_Click(object sender, EventArgs e)
@@ -39,5 +39,6 @@ namespace COVID_Management
             f2.Show();
             //this.Close();
         }
+
     }
 }
