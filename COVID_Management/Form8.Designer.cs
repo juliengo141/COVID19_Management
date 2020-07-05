@@ -36,20 +36,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 13.2F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Constantia", 16.2F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(12, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 26);
+            this.label1.Size = new System.Drawing.Size(682, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Your results show that you are unfit for work today.";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.label2.Location = new System.Drawing.Point(16, 79);
+            this.label2.Font = new System.Drawing.Font("Constantia", 11F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(14, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(666, 152);
+            this.label2.Size = new System.Drawing.Size(659, 184);
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -57,10 +59,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
-            this.ClientSize = new System.Drawing.Size(711, 267);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.ClientSize = new System.Drawing.Size(711, 302);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form8";
             this.Text = "Form8";

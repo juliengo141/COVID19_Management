@@ -36,20 +36,22 @@
             // IThinkIHaveCovidLabel
             // 
             this.IThinkIHaveCovidLabel.AutoSize = true;
-            this.IThinkIHaveCovidLabel.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.IThinkIHaveCovidLabel.Font = new System.Drawing.Font("Constantia", 11F);
+            this.IThinkIHaveCovidLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.IThinkIHaveCovidLabel.Location = new System.Drawing.Point(22, 34);
             this.IThinkIHaveCovidLabel.Name = "IThinkIHaveCovidLabel";
-            this.IThinkIHaveCovidLabel.Size = new System.Drawing.Size(366, 361);
+            this.IThinkIHaveCovidLabel.Size = new System.Drawing.Size(361, 437);
             this.IThinkIHaveCovidLabel.TabIndex = 9;
             this.IThinkIHaveCovidLabel.Text = resources.GetString("IThinkIHaveCovidLabel.Text");
             // 
             // ITestedPosForCovid
             // 
             this.ITestedPosForCovid.AutoSize = true;
-            this.ITestedPosForCovid.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.ITestedPosForCovid.Font = new System.Drawing.Font("Constantia", 11F);
+            this.ITestedPosForCovid.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.ITestedPosForCovid.Location = new System.Drawing.Point(413, 34);
             this.ITestedPosForCovid.Name = "ITestedPosForCovid";
-            this.ITestedPosForCovid.Size = new System.Drawing.Size(360, 342);
+            this.ITestedPosForCovid.Size = new System.Drawing.Size(355, 414);
             this.ITestedPosForCovid.TabIndex = 10;
             this.ITestedPosForCovid.Text = resources.GetString("ITestedPosForCovid.Text");
             // 
@@ -57,8 +59,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.ClientSize = new System.Drawing.Size(800, 484);
             this.Controls.Add(this.ITestedPosForCovid);
             this.Controls.Add(this.IThinkIHaveCovidLabel);
             this.Name = "Form3";

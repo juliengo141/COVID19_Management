@@ -42,10 +42,11 @@
             // instructionLabel
             // 
             this.instructionLabel.AutoSize = true;
-            this.instructionLabel.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.instructionLabel.Font = new System.Drawing.Font("Constantia", 11F);
+            this.instructionLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.instructionLabel.Location = new System.Drawing.Point(12, 234);
             this.instructionLabel.Name = "instructionLabel";
-            this.instructionLabel.Size = new System.Drawing.Size(298, 95);
+            this.instructionLabel.Size = new System.Drawing.Size(290, 115);
             this.instructionLabel.TabIndex = 27;
             this.instructionLabel.Text = "Please quarantine yourself for \r\n14 days starting from today, \r\nwhen you first sh" +
     "owed symptons, \r\nor the day you tested for covid\r\n.";
@@ -54,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.ClientSize = new System.Drawing.Size(312, 334);
             this.Controls.Add(this.instructionLabel);
             this.Controls.Add(this.monthCalendar1);

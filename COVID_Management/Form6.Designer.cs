@@ -37,10 +37,11 @@
             // covidManagerLabel
             // 
             this.covidManagerLabel.AutoSize = true;
-            this.covidManagerLabel.Font = new System.Drawing.Font("Lucida Sans", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.covidManagerLabel.Location = new System.Drawing.Point(20, 39);
+            this.covidManagerLabel.Font = new System.Drawing.Font("Constantia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.covidManagerLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.covidManagerLabel.Location = new System.Drawing.Point(28, 29);
             this.covidManagerLabel.Name = "covidManagerLabel";
-            this.covidManagerLabel.Size = new System.Drawing.Size(538, 26);
+            this.covidManagerLabel.Size = new System.Drawing.Size(601, 35);
             this.covidManagerLabel.TabIndex = 15;
             this.covidManagerLabel.Text = "What were the results of your COVID-19 test?";
             // 
@@ -48,6 +49,7 @@
             // 
             this.COVIDPosButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.COVIDPosButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.COVIDPosButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.COVIDPosButton.Location = new System.Drawing.Point(25, 85);
             this.COVIDPosButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.COVIDPosButton.Name = "COVIDPosButton";
@@ -60,7 +62,7 @@
             // COVIDNegButton
             // 
             this.COVIDNegButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.COVIDNegButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.COVIDNegButton.Font = new System.Drawing.Font("Constantia", 11F);
             this.COVIDNegButton.Location = new System.Drawing.Point(473, 87);
             this.COVIDNegButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.COVIDNegButton.Name = "COVIDNegButton";
@@ -73,7 +75,7 @@
             // COVIDResultsNotReceivedButton
             // 
             this.COVIDResultsNotReceivedButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.COVIDResultsNotReceivedButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
+            this.COVIDResultsNotReceivedButton.Font = new System.Drawing.Font("Constantia", 11F);
             this.COVIDResultsNotReceivedButton.Location = new System.Drawing.Point(245, 85);
             this.COVIDResultsNotReceivedButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.COVIDResultsNotReceivedButton.Name = "COVIDResultsNotReceivedButton";
@@ -87,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.ClientSize = new System.Drawing.Size(711, 179);
             this.Controls.Add(this.COVIDResultsNotReceivedButton);
             this.Controls.Add(this.COVIDNegButton);

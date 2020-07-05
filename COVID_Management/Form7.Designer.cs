@@ -40,8 +40,8 @@
             // noOutOfCanButton
             // 
             this.noOutOfCanButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.noOutOfCanButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.noOutOfCanButton.Location = new System.Drawing.Point(367, 237);
+            this.noOutOfCanButton.Font = new System.Drawing.Font("Constantia", 11F);
+            this.noOutOfCanButton.Location = new System.Drawing.Point(379, 269);
             this.noOutOfCanButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.noOutOfCanButton.Name = "noOutOfCanButton";
             this.noOutOfCanButton.Size = new System.Drawing.Size(302, 79);
@@ -54,10 +54,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.label2.Location = new System.Drawing.Point(12, 186);
+            this.label2.Font = new System.Drawing.Font("Constantia", 11F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(12, 207);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(697, 38);
+            this.label2.Size = new System.Drawing.Size(678, 46);
             this.label2.TabIndex = 21;
             this.label2.Text = "Did you recently return from outside of Canada within 14 days or came into close " +
     "\r\ncontact with someone who did? If yes, what day did you return/meet them?";
@@ -65,27 +66,27 @@
             // covidManagerLabel
             // 
             this.covidManagerLabel.AutoSize = true;
-            this.covidManagerLabel.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.covidManagerLabel.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold);
+            this.covidManagerLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(235)))));
+            this.covidManagerLabel.Font = new System.Drawing.Font("Constantia", 36F, System.Drawing.FontStyle.Bold);
             this.covidManagerLabel.Location = new System.Drawing.Point(6, 18);
             this.covidManagerLabel.Name = "covidManagerLabel";
-            this.covidManagerLabel.Size = new System.Drawing.Size(705, 136);
+            this.covidManagerLabel.Size = new System.Drawing.Size(656, 146);
             this.covidManagerLabel.TabIndex = 20;
             this.covidManagerLabel.Text = "COVID Daily Work-\r\nFitness Questionnaire";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(18, 337);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Constantia", 11F);
+            this.dateTimePicker1.Location = new System.Drawing.Point(16, 362);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(295, 28);
+            this.dateTimePicker1.Size = new System.Drawing.Size(295, 30);
             this.dateTimePicker1.TabIndex = 25;
             // 
             // yesOutOfCanButton
             // 
             this.yesOutOfCanButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.yesOutOfCanButton.Font = new System.Drawing.Font("Lucida Sans", 10.2F);
-            this.yesOutOfCanButton.Location = new System.Drawing.Point(16, 237);
+            this.yesOutOfCanButton.Font = new System.Drawing.Font("Constantia", 11F);
+            this.yesOutOfCanButton.Location = new System.Drawing.Point(16, 269);
             this.yesOutOfCanButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.yesOutOfCanButton.Name = "yesOutOfCanButton";
             this.yesOutOfCanButton.Size = new System.Drawing.Size(297, 79);
@@ -97,10 +98,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::COVID_Management.Properties.Resources.Light_gray_image;
+            this.pictureBox1.BackgroundImage = global::COVID_Management.Properties.Resources.Background;
             this.pictureBox1.Location = new System.Drawing.Point(-24, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(783, 172);
+            this.pictureBox1.Size = new System.Drawing.Size(783, 184);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,8 +109,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(226)))), ((int)(((byte)(209)))));
-            this.ClientSize = new System.Drawing.Size(723, 392);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.ClientSize = new System.Drawing.Size(723, 421);
             this.Controls.Add(this.yesOutOfCanButton);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.noOutOfCanButton);
