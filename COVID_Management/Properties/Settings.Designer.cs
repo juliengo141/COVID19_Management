@@ -26,5 +26,7 @@ namespace COVID_Management.Properties
                 return defaultInstance;
             }
         }
+
+        public static System.Drawing.Font DefaultFont { get; }
     }
 }
